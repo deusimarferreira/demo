@@ -19,9 +19,8 @@ import static org.mockito.Mockito.mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 <dependency>
     <groupId>org.powermock</groupId>
-    <artifactId>powermock-api-mockito2</artifactId>
+    <artifactId>powermock-mockito2</artifactId>
     <version>2.0.9</version>
     <scope>test</scope>
 </dependency>
-
 ```
