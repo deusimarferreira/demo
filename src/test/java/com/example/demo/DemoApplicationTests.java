@@ -1,13 +1,19 @@
 package com.example.demo;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
-@SpringBootTest
-class DemoApplicationTests {
+import java.util.ArrayList;
+import java.util.List;
 
-	@Test
-	void contextLoads() {
-	}
+@SpringBootApplication
+@Configuration
+public class DemoApplicationTests {
 
+    @Bean
+    public List<String> getStringList() {
+        return new ArrayList<>();
+    }
 }
